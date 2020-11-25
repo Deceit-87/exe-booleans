@@ -1,0 +1,94 @@
+body {
+background-image:url(img/background.jpg);
+background-size:cover;
+display: block;
+
+}
+
+.transbox{
+  background-color:rgba(0,0,0,0.6);
+  display:block;
+  width: 64%;
+  height: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding-top: 6%;
+
+
+
+
+}
+
+/* Header */
+#logo {
+  width: 190px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 0;
+}
+
+h1{
+  text-align: center;
+color:rgba(29,219,4,1);
+margin-bottom: 0;
+
+}
+
+/* blocco centrale  */
+.center{
+  padding: 0 5% 10% 5%;
+}
+nav {
+  background-color:rgba(29,219,4,1);
+  padding: 5px;
+
+  }
+
+.button {
+  text-align:center;
+
+}
+
+
+h3.monopat {
+color: white;
+display: inline-block;
+margin-bottom: 0;
+
+}
+
+p{
+color: white;
+margin-top: 0;
+margin-bottom: 0;
+}
+.arrow:before{
+  content: ' \2194';
+}
+
+/* Stato ricarica  */
+
+#charge1 {
+  display: inline-block;
+  width:30%;
+  height: 30px;
+  background-color: rgba(245,180,89);
+  border-radius: 5px;
+
+}#charge2 {
+  display: inline-block;
+  width:55%;
+  height: 30px;
+  background-color: rgba(32,195,52);
+  border-radius: 5px;
+}
+#charge3 {
+  display: inline-block;
+  width:14%;
+  height: 30px;
+  background-color: rgba(190,65,65);
+  border-radius: 5px;
+}
